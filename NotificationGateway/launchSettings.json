@@ -1,0 +1,16 @@
+{
+  "profiles": {
+    "Docker Compose": {
+      "commandName": "DockerCompose",
+      "commandVersion": "1.0",
+      "serviceActions": {
+        "notificationgateway": "StartDebugging",
+        "notificationservice": "StartDebugging",
+        "mailservice": "StartDebugging",
+        "smsservice": "StartDebugging",
+        "thirdpartyservices": "StartDebugging",
+        "pushservice": "StartDebugging"
+      }
+    }
+  }
+}
